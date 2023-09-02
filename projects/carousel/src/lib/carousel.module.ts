@@ -10,7 +10,7 @@ import {
   HAMMER_GESTURE_CONFIG,
   HammerModule
 } from '@angular/platform-browser';
-import { ModuleWithProviders } from '@angular/compiler/src/core';
+import { ModuleWithProviders } from '@angular/core';
 
 // https://github.com/angular/angular/issues/10541#issuecomment-300761387
 @Injectable()
@@ -26,7 +26,7 @@ export class MatCarouselHammerConfig extends HammerGestureConfig {
   exports: [MatCarouselComponent, MatCarouselSlideComponent]
 })
 export class MatCarouselModule {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<MatCarouselModule> {
     return {
       ngModule: MatCarouselModule,
       providers: [
