@@ -1,0 +1,54 @@
+{
+  "name": "@ngbmodule/material-carousel",
+  "description": "Carousel component for Angular using Material Design.",
+  "version": "0.7.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayachandrab/material2-carousel.git"
+  },
+  "author": "Gabriel Busarello <gabriel20053@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://gabrielbusarello.github.io/material2-carousel/",
+  "bugs": "https://github.com/gabrielbusarello/material2-carousel/issues",
+  "keywords": [
+    "angular",
+    "material",
+    "carousel",
+    "component",
+    "module"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/material": "^10.0.1",
+    "hammerjs": "^2.0.8",
+    "rxjs": "~6.6.0"
+  },
+  "module": "fesm2015/ngbmodule-material-carousel.mjs",
+  "es2020": "fesm2020/ngbmodule-material-carousel.mjs",
+  "esm2020": "esm2020/ngbmodule-material-carousel.mjs",
+  "fesm2020": "fesm2020/ngbmodule-material-carousel.mjs",
+  "fesm2015": "fesm2015/ngbmodule-material-carousel.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngbmodule-material-carousel.mjs",
+      "es2020": "./fesm2020/ngbmodule-material-carousel.mjs",
+      "es2015": "./fesm2015/ngbmodule-material-carousel.mjs",
+      "node": "./fesm2015/ngbmodule-material-carousel.mjs",
+      "default": "./fesm2020/ngbmodule-material-carousel.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}

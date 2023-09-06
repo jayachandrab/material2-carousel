@@ -1,0 +1,9 @@
+/*
+ * Public API Surface of mat-carousel
+ */
+export * from './lib/carousel.component';
+export * from './lib/carousel.module';
+export * from './lib/carousel';
+export * from './lib/carousel-slide/carousel-slide.component';
+export * from './lib/carousel-slide/carousel-slide';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL2Nhcm91c2VsL3NyYy9wdWJsaWNfYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYywwQkFBMEIsQ0FBQztBQUN6QyxjQUFjLHVCQUF1QixDQUFDO0FBQ3RDLGNBQWMsZ0JBQWdCLENBQUM7QUFFL0IsY0FBYywrQ0FBK0MsQ0FBQztBQUM5RCxjQUFjLHFDQUFxQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBtYXQtY2Fyb3VzZWxcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9jYXJvdXNlbC5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvY2Fyb3VzZWwubW9kdWxlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2Nhcm91c2VsJztcblxuZXhwb3J0ICogZnJvbSAnLi9saWIvY2Fyb3VzZWwtc2xpZGUvY2Fyb3VzZWwtc2xpZGUuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2Nhcm91c2VsLXNsaWRlL2Nhcm91c2VsLXNsaWRlJztcbiJdfQ==
